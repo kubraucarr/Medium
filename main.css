@@ -1,0 +1,66 @@
+.card-text{
+   font-family: "Instrument", serif;
+}
+
+.card-subtitle{
+   font-family: "sohne, "Helvetica Neue", Helvetica, Arial, sans-serif";
+}
+
+.img{
+   border-radius: 50%;
+}
+
+.btn1{
+   font-size: 13px;
+}
+
+.btn2{
+   font-size: 13px;
+}
+
+
+form input {
+   border-style: none
+}
+
+
+
+h10{
+font-size: 12px;
+font-weight: bold;
+}
+
+h6{
+font-size:large;
+}
+
+.seethefulllist{
+   font-size: small;
+   color: green;
+}
+ 
+.border1{
+   border: 1px solid black;
+   border-radius: 25px;
+   margin-left: 35px;
+}
+  .border2{
+   border: 2px ;
+   border-radius: 25px;
+  }
+
+
+
+.text{
+   text-align: center;
+   margin-left: 50px;
+}
+
+
+
+
+ 
+            
+
+
+ 
