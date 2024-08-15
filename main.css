@@ -7,6 +7,7 @@
 }
 
 .img{
+   margin-left: 15px;
    border-radius: 50%;
 }
 
@@ -23,7 +24,39 @@ form input {
    border-style: none
 }
 
+.navbar-light{
+   margin-top: 3px;
+   margin-left: 10px;
+}
 
+.fa-magnifying-glass{
+   font-size: larger;
+   opacity: 0.4;
+}
+
+.fa-pen-to-square{
+   margin-left: 5px;
+   font-size:22px;
+   opacity: 0.4;
+   
+}
+.write{
+ 
+   font-size:14px;
+   opacity: 0.6;
+}
+
+.fa-bell{
+   margin-top: 5px;
+   margin-left: 25px;
+   font-size:22px;
+   opacity: 0.6;
+}
+.msitmb{
+   font-size: 12px;
+   
+
+}
 
 h10{
 font-size: 12px;
