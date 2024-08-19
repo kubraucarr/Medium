@@ -1,7 +1,8 @@
 .card-text{
    font-size: medium;
+  
    opacity: 0.5;
-   
+   font-family: "sohne, "Helvetica Neue", Helvetica, Arial, sans-serif";
 }
 
 .card-subtitle{
