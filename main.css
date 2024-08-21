@@ -6,8 +6,14 @@
 .card-subtitle{
    font-family: "sohne, "Helvetica Neue", Helvetica, Arial, sans-serif";
 }
-
-
+.scroll{
+   display: block;
+   flex: 1 1 auto;
+}
+.scroll2{
+   flex: 1 0 auto;
+   display: block;
+}
 
 .img{
    margin-left: 15px;
