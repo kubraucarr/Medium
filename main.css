@@ -43,6 +43,15 @@
 form input {
    border-style: none
 }
+.links{
+   font-size: 12px;
+  
+   
+}
+.p{
+   color: gray;
+   display: inline;
+}
 
 .navbar-light{
    margin-top: 3px;
@@ -134,4 +143,25 @@ font-size:large;
    font-size: xx-large;
    padding-top: 25px;
  }
+
+ .end{
+   position: relative;
+}
  
+.fa-square-check{
+   margin-left: 280px;
+   font-size: 20px;
+}
+.text-end{
+   margin-left: 220px;
+}
+.btn-end{
+   font-size: 14px;
+   margin-top: 5px;
+   margin-left: 180px;
+   background-color: #1A8917;
+   color: white;
+   border: none;
+   width: 220px;
+   height: 35px;
+}
