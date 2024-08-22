@@ -6,22 +6,35 @@
 .card-subtitle{
    font-family: "sohne, "Helvetica Neue", Helvetica, Arial, sans-serif";
 }
-.scroll{
-   display: block;
-   flex: 1 1 auto;
+.left-content {
+   flex: 3;
+  
+   overflow-y: auto;
 }
-.scroll2{
-   flex: 1 0 auto;
-   display: block;
+.underline {
+   text-decoration: underline;
+   text-underline-offset: 29px;
 }
 
+
+.right-content {
+   flex: 1;
+   padding-left: 20px;
+   position: relative;
+}
+
+.sticky {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 20px;
+   
+}
 .img{
    margin-left: 15px;
    border-radius: 50%;
 }
 .btn{
  
-   background-color: #F2F2F2;
    font-size: 14px;
    font-weight:500;
 }
@@ -40,12 +53,20 @@
    border:none;
    
 }
+.btn4{
+   background-color: #F2F2F2;
+   font-size: 14px;
+   font-weight:500;
+}
 .fa-solid{
    opacity: 0.7;
 }
 
 .fa-regular{
    opacity: 0.7;
+}
+.fa-star{
+   color: gold;
 }
 
 form input {
