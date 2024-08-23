@@ -58,7 +58,18 @@
                            
                                <div class="row">
                                  <div class="col-8 buttons">
-                                 <i class="fa-solid fa-star"></i>
+                                 <i class="fa-solid fa-star" id="openModalButton" style="width: 40px; cursor: pointer;"></i>
+                                   
+                                 <div id="myModal" class="modal">
+                                  <div class="modal-content">
+                                      <span class="close-button">&times;</span>
+                                      <div id="modalContent"> <!-- İçeriğin ekleneceği div -->
+                                          <h2>Modal Başlık</h2>
+                                          <p>Bu, modal penceresinin içeriğidir. Buraya istediğiniz içeriği ekleyebilirsiniz.</p>
+                                      </div>
+                                  </div>
+                              </div>
+
                                  <button type="button" class=" btn btn1  ">Aug 7</button>
                                  <i class=" fa-solid fa-hands-clapping  "></i>
                                  <button type="button" class="  btn btn2 text-black-50 pl-0 font-weight-bold">5.9K</button>
