@@ -3,20 +3,18 @@ const openModalButton = document.getElementById('openModalButton');
 const modal = document.getElementById('myModal');
 const closeButton = document.querySelector('.close-button');
 const modalContent = document.getElementById('modalContent'); // Modal içeriği bölümü
+const modalcontent=document.querySelector('.modal-content');
 
 // Modali açma ve konumlandırma
 openModalButton.addEventListener('click', function() {
 
-    modalContent.innerHTML = `
-    <h2>Yeni Modal Başlık</h2>
-    <p>Bu, modal penceresine tıklandığında gösterilecek dinamik içeriktir. Buraya istediğiniz HTML veya metni ekleyebilirsiniz.</p>
-   
-`;
+    modalcontent.style.display='block';
 
 
 
     const rect = openModalButton.getBoundingClientRect(); // Butonun konumunu al
     modal.style.display = 'block';
+
    
 });
 

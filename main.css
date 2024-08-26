@@ -63,22 +63,26 @@
 }
 
 
+.row{
+   z-index: -1;
+}
 
 .modal {
    display: none;
    position:absolute;
-   margin-top: 30px;
+   margin-top: 5px;
+
    z-index: 1;
 }
 
 /* Modal içerik kutusu */
-.modal-content {
+ .modal-content{
+
    background-color: #fefefe;
-   border: 1px solid #888;
-   width: 200px;
-   height: 200px;
-   border-radius: 8px;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   width: 220px; 
+   height: 250px; 
+   overflow: auto; /* Hem yatay hem dikey taşmaları yönet */ 
+   box-shadow: rgba(0, 0, 0, 0.2);
 }
 
 /* Kapatma butonu stili */
