@@ -7,6 +7,7 @@ const modalcontent=document.querySelector('.modal-content');
 
 
 
+
 // Modali açma ve konumlandırma
 
 openModalButtons.forEach(button => {
@@ -18,8 +19,8 @@ button.addEventListener('click', function(event){
 
     const rect = button.getBoundingClientRect(); // Butonun konumunu al
     modal.style.display = 'block';
-    modal.style.top = `${rect.top + window.scrollX}px`; // Butonun hemen altına yerleştir
-    modal.style.left = `${rect.right + window.scrollY+1000}px`; // Butonun sol hizasında yerleştir
+    modal.style.top = `${rect.bottom + window.scrollY-80}px`; // Butonun hemen altına yerleştir
+    modal.style.right = `${rect.right + window.scrollx+100}px`; // Butonun sol hizasında yerleştir
 
    
 });
