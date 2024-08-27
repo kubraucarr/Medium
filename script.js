@@ -4,7 +4,8 @@ const modal = document.getElementById('myModal');
 const closeButton = document.querySelector('.close-button');
 const modalContent = document.getElementById('modalContent'); // Modal içeriği bölümü
 const modalcontent=document.querySelector('.modal-content');
-
+const publishButton = document.querySelector('.story-btn');
+const textAreas = document.querySelectorAll('.text-area h1, .text-area h4');
 
 
 
@@ -24,6 +25,13 @@ button.addEventListener('click', function(event){
 
    
 });
+});
+
+textAreas.forEach(textArea => {
+    textArea.addEventListener('click', () => {
+        // Butonun opaklığını kaldır
+        publishButton.style.opacity = '1';
+    });
 });
 
 
