@@ -165,6 +165,17 @@ form input {
    text-decoration: none;
    
 }
+
+.abril-fatface-regular{
+   color: black;
+}
+
+.abril-fatface-regular:hover{
+   color: black;
+   text-decoration: none;
+
+}
+
 .fa-bell{
    margin-top: 5px;
    margin-left: 25px;

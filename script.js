@@ -27,12 +27,16 @@ button.addEventListener('click', function(event){
 });
 });
 
+
+
 textAreas.forEach(textArea => {
     textArea.addEventListener('click', () => {
         // Butonun opaklığını kaldır
         publishButton.style.opacity = '1';
     });
 });
+
+
 
 
 
