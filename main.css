@@ -9,7 +9,7 @@
 .left-content {
    flex: 3;
   
-   overflow-y: auto;
+  
 }
 .underline {
    text-decoration: underline;
