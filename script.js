@@ -9,6 +9,7 @@ const textAreas = document.querySelectorAll('.text-area h1, .text-area h4');
 
 
 
+
 // Modali açma ve konumlandırma
 
 openModalButtons.forEach(button => {
