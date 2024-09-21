@@ -8,9 +8,10 @@
 }
 .left-content {
    flex: 3;
-  
-  
 }
+
+ 
+
 .underline {
    text-decoration: underline;
    text-underline-offset: 29px;
